@@ -1,0 +1,54 @@
+ ◾ Day 1 - Task 1 ✔ 
+
+
+
+1️⃣ What is DevOps and its Importance?
+
+
+
+DevOps = Development +operations
+
+DevOps is a Streamline process where the code gets built, tested, reviewed, and deployed in an automatic way with no or low manual interference after being pushed into the SCM.
+
+It is a Collaborative approach where all teams (development + Testing + Operations) come together to achieve a common goal, in this case, the deployment of code with zero downtime.
+
+
+
+simpler terms: "साब का साथ सब का विकास"
+
+
+
+2️⃣ What is Automation, Scaling, Infrastructure
+
+
+
+Automation refers to achieving a goal with no manual intervention, 
+
+Example: when a developer pushed a code to GitHub, it should get automatically built, tested, reviewed, and deployed over servers.
+
+
+
+Scaling: The ability to function well even in high traffic or utilization.
+
+there are multiple ways to achieve these like Kubernetes or VMSS (Virtual machine scale sets) in Azure.
+
+Example: Hotstar's Ability to cater to the viewers on an India Vs Srilanka cricket match where the viewership is in millions vs India vs Pakistan T20 match where the viewership was record-breaking at a whopping number of 1.8 crores.
+
+
+
+Infrastructure: in simpler words, all the hardware, software, and requirements that are responsible for your automation or deployment.
+
+Examples: servers (computers), network appliances (routers, switches, NICs), Cloud hosted services (Azure, Aws), and Software like Jenkins and Maven.
+
+
+
+
+
+
+
+
+
+
+
+
+
