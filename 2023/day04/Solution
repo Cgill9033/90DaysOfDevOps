@@ -1,0 +1,41 @@
+Explain in your own words and examples, what is Shell Scripting for DevOps:
+Bash scripting is like having a personal bot for your command line. With just a few lines of code, you can have your computer do all the tedious tasks for you. 
+Imagine, never having to manually move files around again or having to manually run updates. Bash scripting can do all that and more! Think of it as giving your computer a set of instructions, and it will follow them to a tee. 
+
+
+What is #!/bin/bash? can we write #!/bin/sh as well?
+#!/bin/bash, which is called a shebang. It is used to specify the interpreter that should be used to run the script. In this case, the interpreter is /bin/bash. This line tells the operating system that the script should be executed by the Bash shell.
+It is also possible to use #!/bin/sh
+
+
+Write a Shell Script which prints I will complete #90DaysOofDevOps challenge:
+#!/bin/bash
+echo "I will complete #90DaysOfDevOps challenge"
+
+
+Write a Shell Script to take user input, input from arguments and print the variables.
+#!/bin/bash
+echo "Enter your name:"
+read name
+echo "Enter your age:"
+read age
+echo "Enter your location:"
+read location
+echo "name is $name, i am $age, and located in $location"
+
+
+Write an Example of If else in Shell Scripting by comparing 2 numbers:
+#!/bin/bash
+echo "Enter first number:"
+read num1
+echo "Enter second number:"
+read num2
+if [ $num1 -gt $num2 ]
+then
+    echo "$num1 is greater than $num2"
+elif [ $num1 -lt $num2 ]
+then
+    echo "$num1 is less than $num2"
+else
+    echo "$num1 is equal to $num2"
+fi
